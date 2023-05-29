@@ -31,8 +31,6 @@ qtd_letras_maiusculas = int(input("Digite a quantidade de letras maiúsculas que
 qtd_caracteres_especiais = int(input("Digite a quantidade de caracteres especiais que deseja na senha: "))
 qtd_caracteres = int(input("Digite a quantidade de caracteres que deseja na senha: "))
 
-# Gera a senha
 senha = gerar_senha(palavras, qtd_letras_maiusculas, qtd_caracteres_especiais, qtd_caracteres)
 
-# Exibe a senha
 print("Senha gerada: ", senha)
